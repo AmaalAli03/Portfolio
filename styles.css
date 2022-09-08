@@ -1,0 +1,233 @@
+.fixed-nav{
+    position:fixed;
+    top: 0;
+    width:100%;
+    display:flex;
+    Justify-content:space-between;
+    background-color: white;
+    align-items: center;
+  
+}
+.nav-links{
+    display:flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+a{
+    padding: 8px 10px;
+    font-size: 1.5rem;
+}
+.fixed-nav a {
+    text-decoration:none;
+    color:black;
+}
+.hero-section{
+height: 100vh;
+display:flex;
+align-items: center;
+justify-content: center;
+background-image:url('images/heroImage.jpg');
+background-size:cover;
+}
+.hero-title{
+    color:white;
+    font-size: 4.5rem;
+}
+.hero-desc{
+    font-size: 2rem;
+}
+.hero-text{
+    text-align: center;
+    color:white;
+}
+
+.section-header{
+        text-align: center;
+    }
+.about-container{
+        display:flex;
+    }
+/*.about-text{
+
+  }*/
+.about-container img {
+        width: 50%;
+        border-radius : 50%;
+        height: 500px;
+    }
+#about {
+    padding: 2rem;
+}
+#contact{
+    padding:2rem;
+    text-align: center;
+}
+.contact-link{
+    text-decoration: none;
+    display: block;
+}
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #portfolio {
+    padding: 2rem 6rem 2rem 6rem;
+    background-color: rgba(226, 218, 222, 0.5);
+  }
+  
+  .portfolio-item {
+    width: 40%;
+    text-align: center;
+    border: 1px #888888 solid;
+    border-radius: 25px;
+    box-shadow: 5px 10px;
+    box-shadow: 5px 8px #888888;
+    background-color: white;
+  }
+  
+  .portfolio-item h2 {
+    padding-top: 10px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+  }
+  
+  a {
+    padding: 8px 10px;
+    font-size: 1.5rem;
+  }
+  
+  .fixed-nav a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("images/heroImage.jpg");
+    background-size: cover;
+  }
+  
+  .hero-title {
+    font-size: 4.5rem;
+  }
+  
+  .hero-desc {
+    font-size: 2rem;
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: white;
+  }
+  
+  .section-header {
+    text-align: center;
+  }
+  
+  .about-container {
+    display: flex;
+  }
+  
+  .about-text {
+    padding-left: 2rem;
+  }
+  
+  .about-container img {
+    width: 25%;
+    border-radius: 50%;
+  }
+  
+  #about {
+    padding: 2rem;
+  }
+  
+  #contact {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact-link {
+    text-decoration: none;
+    display: block;
+  }
+  
+  .portfolio-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #portfolio {
+    padding: 2rem 6rem 2rem 6rem;
+    background-color: rgba(226, 218, 222, 0.5);
+  }
+  
+  .portfolio-item {
+    width: 40%;
+    text-align: center;
+    border: 1px #888888 solid;
+    border-radius: 25px;
+    box-shadow: 5px 10px;
+    box-shadow: 5px 8px #888888;
+    background-color: white;
+  }
+  
+  .portfolio-item h2 {
+    padding-top: 10px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }  
+  .navbarBeige {
+    background-color: burlywood;
+    transition: 0.3s;
+  }
+  /* need to make height 100% otherwise there is a space below the footer */
+html,
+body {
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+  vertical-align: center;
+  background-color: rgba(226, 218, 222, 0.75);
+}
+
+.footer-text {
+  padding-top: 3px;
+}
+  
+  
+  
+  
+  
+  
